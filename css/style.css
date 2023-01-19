@@ -24,7 +24,6 @@ nav ul li :hover {
 }
 
 .container {
-    /* height: 1000px; */
     min-height: calc(100vh - 58px - 12vh );
 }
 
@@ -36,12 +35,14 @@ nav {
 .search{
     display: flex;
     align-items: center;
+    margin: 0 12px;
+    width: 494px;
    
 }
 input{
     position: relative;
-    left:378px;
-    width:530px;
+    left:100px;
+    width:376px;
     height: 20px;
     border: #a371cb 2px solid;
     border-radius: 10px;
@@ -51,7 +52,12 @@ nav img {
     margin-top: 5px;
     align-items: center;
 }
-
+.btn{
+    display: flex;
+    padding: 10px;
+    height: 26px;
+    align-items: center;
+}
 img:hover {
     transform: rotate(10deg);
 
